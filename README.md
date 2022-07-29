@@ -4,7 +4,6 @@ A laravel inertiajs vuetify starterkit
 
 ## Demo
 
-You can access demo app in : <https://laravel-inertia-vuetify.herokuapp.com/>
 
 ## Features
 
@@ -21,10 +20,7 @@ You can access demo app in : <https://laravel-inertia-vuetify.herokuapp.com/>
 
 Clone repo locally
 
-```bash
-git clone https://github.com/ahmadfaizk/laravel-inertiajs-vuetify-starterkit
-cd laravel-inertiajs-vuetify-starterkit
-```
+
 
 Install PHP Dependencies
 
