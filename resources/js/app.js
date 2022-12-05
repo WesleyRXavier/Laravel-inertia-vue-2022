@@ -8,8 +8,10 @@ import {
 import { Link } from "@inertiajs/inertia-vue";
 import vuetify from "./plugins/vuetify";
 import { InertiaProgress } from "@inertiajs/progress";
+import VueMask from 'v-mask';
 
 Vue.use(InertiaPlugin);
+Vue.use(VueMask);
 Vue.component("Link", Link);
 Vue.mixin({ methods: { route: window.route } });
 const app = document.getElementById("app");

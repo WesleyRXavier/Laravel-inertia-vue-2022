@@ -7,16 +7,16 @@
       </div>
     </v-banner>
     <v-card>
-     
+
   <v-row justify="center">
     <v-expansion-panels accordion>
       <v-expansion-panel
-        v-for="(item,i) in 5"
+        v-for="(item,i) in 1"
         :key="i"
       >
-        <v-expansion-panel-header>Item</v-expansion-panel-header>
+        <v-expansion-panel-header>Sala de Reunião 01</v-expansion-panel-header>
         <v-expansion-panel-content>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <Calendario></Calendario>
         </v-expansion-panel-content>
       </v-expansion-panel>
     </v-expansion-panels>
@@ -28,8 +28,9 @@
 
 <script>
 import AdminLayout from "../layouts/AdminLayout.vue";
+import Calendario from './Calendario.vue'
 export default {
-  components: { AdminLayout },
+  components: { AdminLayout,Calendario },
   data() {
     return {
       breadcrumbs: [

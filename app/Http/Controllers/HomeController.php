@@ -16,4 +16,9 @@ class HomeController extends Controller
     {
         return Inertia::render('home');
     }
+
+    public function inicio()
+    {
+        return Inertia::render('inicio/inicio');
+    }
 }
